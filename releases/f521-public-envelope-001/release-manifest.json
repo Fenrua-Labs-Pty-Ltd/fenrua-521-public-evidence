@@ -1,0 +1,16 @@
+{
+  "schema_version": "fenrua-521-public-evidence/v1",
+  "release_id": "F521-PUB-ENVELOPE-001",
+  "build_state": "VERIFIED",
+  "published_at": "2026-07-24T22:33:02Z",
+  "release_scope": "Sanitized local inter-engine mediation-envelope conformance evidence.",
+  "results": [
+    {
+      "result_id": "F521-PUB-RESULT-ENVELOPE-001",
+      "result_path": "results/f521-public-result-envelope-001.json",
+      "result_digest": "sha256:434bfa524a2ee37fb76c99156ef1f2fe8276dd657d6b939bb57fdcabe7013f87",
+      "file_sha256": "sha256:feb5fbf892a85f868304078079a9343a9d574503b9db32a8cd80c9b56fa39ada"
+    }
+  ],
+  "manifest_digest": "sha256:878662146e7262006587f7c4d6d5b99bdcecd68848ff9a6100a290d6eeb36826"
+}

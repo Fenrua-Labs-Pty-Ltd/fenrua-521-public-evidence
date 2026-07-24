@@ -1,0 +1,42 @@
+{
+  "schema_version": "fenrua-521-public-evidence-result/v1",
+  "result_id": "F521-PUB-RESULT-ENVELOPE-001",
+  "release_id": "F521-PUB-ENVELOPE-001",
+  "build_state": "VERIFIED",
+  "published_at": "2026-07-24T22:33:02Z",
+  "verification": {
+    "kind": "typed inter-engine mediation-envelope conformance",
+    "envelope_version": "fenrua-521-envelope/v1",
+    "validation_properties": [
+      "exact approved sender pair",
+      "configured recipient and output schema",
+      "classification-correct approved binding",
+      "non-expired envelope",
+      "bounded validation receipt"
+    ],
+    "case_count": 6
+  },
+  "outcome_counts": {
+    "total": 6,
+    "accepted": 1,
+    "rejected": 5,
+    "error": 0
+  },
+  "rejection_coverage": [
+    "missing correlation ID",
+    "unsupported envelope version",
+    "classification-binding mismatch",
+    "expired envelope",
+    "forbidden task class"
+  ],
+  "integrity_observations": {
+    "receipt_reference_format": "sha256:<64 lowercase hexadecimal characters>",
+    "schema_hash_status": "verified against the schema bytes used by the validator",
+    "unhandled_error_count": 0
+  },
+  "limitations": [
+    "This release covers local mediation-boundary conformance only.",
+    "It does not attest a live capability-model response or production authority."
+  ],
+  "result_digest": "sha256:434bfa524a2ee37fb76c99156ef1f2fe8276dd657d6b939bb57fdcabe7013f87"
+}

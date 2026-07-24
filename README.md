@@ -127,11 +127,15 @@ mediator:
 
 ## Current release status
 
-[`F521-PUB-BASELINE-001`](releases/f521-public-baseline-001/) is published.
-It records the verified 52-case deterministic KRN mediator conformance run:
-23 verified outcomes, 3 contained outcomes, 26 policy refusals, and 0 errors.
-It does not attest a live capability-model response or production authority.
+Published releases:
 
-The published [release manifest](releases/f521-public-baseline-001/release-manifest.json)
-and [SHA256SUMS](releases/f521-public-baseline-001/SHA256SUMS) provide the
-complete public integrity chain for this release.
+- [`F521-PUB-BASELINE-001`](releases/f521-public-baseline-001/) records the
+  verified 52-case deterministic KRN mediator conformance run: 23 verified
+  outcomes, 3 contained outcomes, 26 policy refusals, and 0 errors.
+- [`F521-PUB-ENVELOPE-001`](releases/f521-public-envelope-001/) records the
+  verified six-case inter-engine envelope conformance run: 1 accepted
+  envelope, 5 correctly rejected envelopes, and 0 errors.
+
+Each release directory contains its own manifest, result files, and
+`SHA256SUMS`. Neither release attests a live capability-model response or
+production authority.
