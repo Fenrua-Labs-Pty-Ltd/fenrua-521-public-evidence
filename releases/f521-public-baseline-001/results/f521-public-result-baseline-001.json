@@ -1,0 +1,48 @@
+{
+  "schema_version": "fenrua-521-public-evidence-result/v1",
+  "result_id": "F521-PUB-RESULT-BASELINE-001",
+  "release_id": "F521-PUB-BASELINE-001",
+  "build_state": "VERIFIED",
+  "published_at": "2026-07-24T22:20:35Z",
+  "verification": {
+    "kind": "deterministic kernel mediator conformance",
+    "executed_stages": [
+      "KRN-INT-001",
+      "KRN-SCH-001",
+      "KRN-SEM-001",
+      "KRN-POL-001",
+      "KRN-REC-001"
+    ],
+    "fixture_scope": {
+      "suite_count": 8,
+      "suites": [
+        "EVAL-01",
+        "EVAL-02",
+        "EVAL-03",
+        "EVAL-04",
+        "EVAL-05",
+        "EVAL-06",
+        "EVAL-07",
+        "EVAL-08"
+      ],
+      "case_count": 52
+    }
+  },
+  "outcome_counts": {
+    "total": 52,
+    "verified": 23,
+    "contained": 3,
+    "refused": 26,
+    "error": 0
+  },
+  "integrity_observations": {
+    "bounded_receipt_count": 52,
+    "receipt_reference_format": "sha256:<64 lowercase hexadecimal characters>",
+    "unhandled_error_count": 0
+  },
+  "limitations": [
+    "This release covers the deterministic mediator path only.",
+    "It does not attest a live capability-model response or production authority."
+  ],
+  "result_digest": "sha256:f8b2c7262631bc254083bd4d499515243d20f34e99252ca5ba0def82ac7c052e"
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "fenrua-521-public-evidence/v1",
+  "release_id": "F521-PUB-BASELINE-001",
+  "build_state": "VERIFIED",
+  "published_at": "2026-07-24T22:20:35Z",
+  "release_scope": "Sanitized deterministic KRN mediator conformance evidence.",
+  "results": [
+    {
+      "result_id": "F521-PUB-RESULT-BASELINE-001",
+      "result_path": "results/f521-public-result-baseline-001.json",
+      "result_digest": "sha256:f8b2c7262631bc254083bd4d499515243d20f34e99252ca5ba0def82ac7c052e",
+      "file_sha256": "sha256:7421b612c18932aed9edd760d2f086129d9a71e82146b7fcbf0b43985acf632a"
+    }
+  ],
+  "manifest_digest": "sha256:d435506b6c86012f71478d962863b2ff4a7dfebd5c631b6205a2485a94a41bdc"
+}

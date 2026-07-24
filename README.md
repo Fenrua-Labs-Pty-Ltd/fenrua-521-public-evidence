@@ -127,6 +127,11 @@ mediator:
 
 ## Current release status
 
-No Fenrua-521 evidence has been published here yet. The first public release
-will be added only after a complete private run passes verification and can be
-published under this SHA-256 evidence process.
+[`F521-PUB-BASELINE-001`](releases/f521-public-baseline-001/) is published.
+It records the verified 52-case deterministic KRN mediator conformance run:
+23 verified outcomes, 3 contained outcomes, 26 policy refusals, and 0 errors.
+It does not attest a live capability-model response or production authority.
+
+The published [release manifest](releases/f521-public-baseline-001/release-manifest.json)
+and [SHA256SUMS](releases/f521-public-baseline-001/SHA256SUMS) provide the
+complete public integrity chain for this release.
